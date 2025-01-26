@@ -11,6 +11,6 @@ We take security vulnerabilities seriously. If you discover a potential security
 
 ## Reporting a Vulnerability
 
-Please email your findings to [security@example.com](mailto:security@example.com). Do not disclose the issue publicly until it has been resolved.
+Please email your findings to [security@arkxion.org](mailto:security@arkxion.org). Do not disclose the issue publicly until it has been resolved.
 
 Thank you for helping us keep this project secure!
