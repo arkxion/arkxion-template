@@ -1,0 +1,17 @@
+# CODEOWNERS file
+
+# Defines the code ownership rules. Specified users/groups will be automatically requested for review
+
+# when changes are made to specific files or directories.
+
+# Example: Assign ownership of the docs directory
+docs/ @doc-maintainer
+
+# Example: Assign multiple owners to the src directory
+src/ @frontend-dev @backend-dev
+
+# Example: Single file ownership for Docker-related files
+Dockerfile @devops-lead
+
+# Catch-all rule (default owners for any changes)
+* @project-maintainer

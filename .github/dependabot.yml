@@ -1,0 +1,29 @@
+# Dependabot configuration file.
+# Automates dependency updates for this repository.
+
+version: 2
+
+updates:
+  # Manage npm dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "02:00"
+      timezone: "Etc/UTC"
+
+  # Example: Manage Python dependencies (if applicable)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "02:00"
+      timezone: "Etc/UTC"
+
+  # Example: Manage GitHub Actions dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "02:00"
+      timezone: "Etc/UTC"
